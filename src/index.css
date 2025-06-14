@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+.Roboto{
+  font-family: "Roboto", sans-serif;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.hard-boxShasow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.hr-style{
+  background-color: #f6f7f8;
+  background: linear-gradient(to right , #9ed7ff , #ffffffff , #9ed7ff);
+  background-size:  50rem 5rem;
+  animation: loader 3s infinite linear;
+}
+
+@keyframes loader {
+  0%{
+    background-position:  -50rem  0px;
+  }    
+  100%{
+    background-position: 50rem 0px;
+  }
+}
